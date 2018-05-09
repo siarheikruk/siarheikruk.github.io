@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">  
+	<head>
+  		<title>Все о суши! И не только...</title>
+
+    	<!-- Мета таги... -->
+
+    	<meta charset="utf-8">
+    	<meta name="Description" content="Интересные факты из истории происхождения суши">   
+		<meta name="Keywords" content="суши, ролл, роллы, япония, рис, рыба, лосось, филадельфия">
+		<meta name="Robots" content="ALL"> 
+		<meta name="Revisit-After" content="1 Days"> 
+		<meta NAME="Author" content="kruk siarhei"> 
+    
+    	<!-- Для правильной визуализации на мобильных устройствах... -->
+
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    	<!-- Фавикон... -->
+
+    	<link rel="icon" href="images/favicon.ico">
+
+    	<!-- Подключаем Bootstrap CSS... В принципе, все стартовые линки были доступны на странице разработчиков. Там же были предложены подсказки насчет идеи привентить css c cdn-серверов. -->  
+
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    	<link href="css/carousel.css" rel="stylesheet">
+	</head>
+
+  <body>
+
+  	<!-- Навигационное меню... (сдесь же применяются, как мы видим, теги списка, и далее по коду...) -->
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="index.html">Susi</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Домой <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="history.html">История</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="fila.html">Рецепты</a>
+          </li>
+        </ul>
+        </div>
+    </nav>
+
+<!-- Слайдер -->
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="first-slide" src="images/slide1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block text-left">
+              <h1>Приветсвуем Вас!</h1>
+              <p>Мы расскажем Вам о древнем искусстве. Об образце чистоты и свежести вкуса...</p>
+              <p><a class="btn btn-lg btn-primary" href="history.html" role="button">Читать</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="second-slide" src="images/slide2.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Только лучшее, только самое свежее.</h1>
+              <p>Посещение любого из суши-ресторанов — незабываемый гастрономический опыт. Получить который, впрочем, очень трудно.</p>
+              <p><a class="btn btn-lg btn-primary" href="http://www.gq.ru/travel/article/best-sushi-tokyo/" role="button">Читать на GQ</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="third-slide" src="images/slide3.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block text-right">
+              <h1>Отточеное мастерство...</h1>
+              <p>Сушист постоянно делает одно и то же снова и снова, оттачивая свое мастерство, улучшая кусочек за кусочком..</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="container marketing">
+
+      <!-- Колонки, пока без кнопок... -->
+
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="images/col1.jpg" alt="" width="140" height="140">
+          <h2>Впервые...</h2>
+          <p>Первые суши начали готовить в начале 1820-х гг. Их изобретателем считается повар Йохей Ханая, который начал продавать вкусные суши на рынке в Эдо (современном Токио).</p>               
+        </div>
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="images/col2.jpg" alt="" width="140" height="140">
+          <h2>Популярное...</h2>
+          <p>Самые популярные роллы – калифорния и филадельфия – были придуманы в 1970-х гг. в Калифорнии. Тогда шэф-повар первого в США японского ресторана понял, что многим не нравится вкус водорослей нори, и решил спрятать их под рисом, свернув ролл наоборот. Он же добавил в блюдо ломтики авокадо и огурца и обвалял роллы в икре летучей рыбы.</p>
+          
+        </div>
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="images/col3.jpg" alt="" width="140" height="140">
+          <h2>Интересное...</h2>
+          <p>Дзиро Оно считает, что все повара суши должны быть мужчинами. Оказывается, многие рестораны Японии отказываются нанимать поваров-женщин, объясняя это тем, что у женщин температура тела выше, и они не могут приготовить такое нежное блюдо. Японцы считают, что разница в 2-4 градуса влияет на вкус продукта.</p>
+          
+        </div>
+      </div>
+
+      <!-- Поставим кнопки на одном уровне и поместим их в новые контейнера, т.к .текст у нас оказался разного обьема-->
+
+      <div class="row">
+        <div class="col-lg-4">
+        <p><a class="btn btn-secondary" href="history.html" role="button">Читать &raquo;</a></p>
+        </div>
+      
+        <div class="col-lg-4">
+        <p><a class="btn btn-secondary" href="fila.html" role="button">Читать &raquo;</a></p>
+        </div>
+     
+        <div class="col-lg-4">
+        <p><a class="btn btn-secondary" href="http://mycooktes.ru/japonskaja_kuhnja/istoriya-dzhiro-ono.html" role="button">Читать &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Водоросли? <span class="text-muted">А что внутри?.</span></h2>
+          <p class="lead">Ученые доказали, что морские водоросли содержат впечатляющее количество белка, кальция, весь комплекс витаминов группы B, антиоксидант витамин А и другие витамины и минералы. Кроме водорослей, мы кладем на суши-рис и множество других небесполезных ингредиентов.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="images/vodorosli.jpg" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Вы не поверите! <span class="text-muted">Интереснфый факт.</span></h2>
+          <p class="lead">Впервые описание нори встречается в 8 веке н.э. В Японии во времена феодализма нори были в списке продуктов, которыми можно было платить дань императору. Лишь в 987 году нори стали повседневной едой.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="featurette-image img-fluid mx-auto" src="images/feodal.jpg" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading"> И наконец. <span class="text-muted">Все это случайность.</span></h2>
+          <p class="lead">Суши — древнее искусство, которое придумали для сохранения продуктов. Рис с рыбой заквашивали уже в 500 году до нашей эры. Рис добавили только для того чтобы брожение пошло быстрее, после чего выбрасывали! И только в середине эпохи Эдо, в 1700 году, древние обнаружили, что рис с уксусом очень вкусен, и началась история всех суши, которыми мы наслаждаемся до сих пор.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="images/edo.jpg" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- Подвал -->
+
+      <footer>
+
+      <!-- Использование якоря и ссылки на внешний элемент -->
+
+        <p class="float-right"><a href="#top">Вверх</a></p>
+        <p>Задание по HTML Крука Сергея STI 2017 <a href="https://careers.epam.by//">EPAM</a></p>
+        <p>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer">
+			    <img style="border:0;width:88px;height:31px"
+			        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+			        alt="Правильный CSS!" />
+			    </a>
+		</p>
+        </footer>
+
+    </div>
+
+    <!-- Подключаем в конце, для наилучшей производительности, сначала jQuery, потом Popper.js, и сам Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,80 @@
+/* Общие стили... Пробуем применять, грубо говоря, смесь px и em, т.е. будем задавать размер для элементов относительно размера шрифта элемента <html> */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+/* Правим слайдер... */
+
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Немного поднимем текст... */
+.carousel-caption {
+  bottom: 3rem;
+}
+
+/* Немного правим высоту */
+.carousel-item {
+  height: 32rem;
+ }
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+/* Центрируем... */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Пока ставим по-умолчанию, потом посмотрим... */
+
+.marketing h2 {
+  font-weight: normal;
+}
+
+/* Настраиваем колонки... */
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+#table2 {
+  border: 1px solid gray;
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* Даем больше места для дивайдера*/
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
